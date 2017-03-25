@@ -8,6 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>anto-config-one</module>
+        <module>auto-config-yaml</module>
     </modules>
     <packaging>pom</packaging>
 

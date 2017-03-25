@@ -1,5 +1,6 @@
 package com.janita.autoconfig.one;
 
+import com.janita.autoconfig.one.configuration.CustomConfigBean;
 import com.janita.autoconfig.one.configuration.DruidDataSourceConfiguration;
 import com.janita.autoconfig.one.configuration.RedisConfig;
 import org.junit.Test;
@@ -21,6 +22,9 @@ public class AutoConfigOneApplicationTests {
     @Autowired
     private DruidDataSourceConfiguration druidDataSourceConfiguration;
 
+    @Autowired
+    private CustomConfigBean customConfigBean;
+
     @Test
     public void redisPrint(){
         System.out.println("*******"+redisConfig);
@@ -29,5 +33,10 @@ public class AutoConfigOneApplicationTests {
     @Test
     public void druidPrint(){
         System.out.println("*******"+druidDataSourceConfiguration);
+    }
+
+    @Test
+    public void testCustom(){
+        System.out.println("*******"+customConfigBean);
     }
 }

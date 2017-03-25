@@ -25,6 +25,12 @@ public class CustomConfigBean {
 		this.age = age;
 		System.out.println("*******启动项目时初始化age的值："+age);
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "CustomConfigBean{" +
+				"username='" + username + '\'' +
+				", age=" + age +
+				'}';
+	}
 }
