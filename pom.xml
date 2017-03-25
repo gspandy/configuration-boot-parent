@@ -10,6 +10,7 @@
         <module>anto-config-one</module>
         <module>auto-config-yaml</module>
         <module>auto-config-order</module>
+        <module>auto-config-random</module>
     </modules>
     <packaging>pom</packaging>
 
