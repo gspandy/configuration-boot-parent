@@ -1,0 +1,3 @@
+如果一些CommandLineRunner或者ApplicationRunner beans被定义必须以特定的次序调用，你可以额外实现org.springframework.core.Ordered接口或使用@Order注解。
+
+可以按顺序去实例化注入一些bean

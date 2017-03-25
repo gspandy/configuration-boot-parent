@@ -9,6 +9,7 @@
     <modules>
         <module>anto-config-one</module>
         <module>auto-config-yaml</module>
+        <module>auto-config-order</module>
     </modules>
     <packaging>pom</packaging>
 
