@@ -18,6 +18,6 @@ public class ConfigController {
 
     @GetMapping
     public String testProfile(){
-        return environment.getProperty("profile");
+        return environment.getProperty("name");
     }
 }
